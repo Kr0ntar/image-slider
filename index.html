@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jQuery Slider</title>
+	<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div id="slider">
+			<img id="1" src="images/image 01.jpg">
+			<img id="2" src="images/image 02.JPG">
+			<img id="3" src="images/image 03.jpg">
+			<img id="4" src="images/image 04.jpg">
+		</div>
+
+		<a href="#" class="left" onclick="prev(); return false;">Previous</a> <!-- returned false so that it will not refresh the browser page (will not go to #) -->
+
+		<a href="#" class="right" onclick="next(); return false;">Next</a>
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-1.9.1.js"
+  integrity="sha256-e9gNBsAcA0DBuRWbm0oZfbiCyhjLrI6bmqAl5o+ZjUA="
+  crossorigin="anonymous"></script>
+  	<script src="js/slider.js"></script>
+</body>
+</html>
